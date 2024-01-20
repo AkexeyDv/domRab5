@@ -76,6 +76,48 @@ public class Main
             }
             System.out.println("Потребуется дней: "+srok);
         }
+        //Задание 5
+        byte monthNumber = 12;
+        switch (monthNumber){
+            case 1:
+                System.out.println("Это зима");
+                break;
+            case 2:
+                System.out.println("Это зима");
+                break;
+            case 3:
+                System.out.println("Это весна");
+                break;
+            case 4:
+                System.out.println("Это весна");
+                break;
+            case 5:
+                System.out.println("Это весна");
+                break;
+            case 6:
+                System.out.println("Это лето");
+                break;
+            case 7:
+                System.out.println("Это лето");
+                break;
+            case 8:
+                System.out.println("Это лето");
+                break;
+            case 9:
+                System.out.println("Это осень");
+                break;
+            case 10:
+                System.out.println("Это осень");
+                break;
+            case 11:
+                System.out.println("Это осень");
+                break;
+            case 12:
+                System.out.println("Это зима");
+                break;
+            default:
+                System.out.println("Что-то с месяцем не так...");
+        }
 
 
 
