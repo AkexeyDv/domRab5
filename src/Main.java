@@ -41,6 +41,21 @@ public class Main
             System.out.println("Введите корректный номер ОС");
         }
 
+        //Задание 3
+        short god=1584;
+
+        if((((god%4)==0&&(god%100)!=0)||(god%400)==0)&&god>1584)
+        {
+            System.out.println("Этот год високосный");
+        }
+        else
+        {
+            System.out.println("Этот год не високосный");
+
+        }
+
+
+
 
 
     }
