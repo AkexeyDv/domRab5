@@ -42,7 +42,7 @@ public class Main
         }
 
         //Задание 3
-        short god=1584;
+        short god=1588;
 
         if((((god%4)==0&&(god%100)!=0)||(god%400)==0)&&god>1584)
         {
@@ -53,6 +53,32 @@ public class Main
             System.out.println("Этот год не високосный");
 
         }
+
+        //Задание 4
+        byte deliveryDistance=101;
+        byte srok=0;
+        if (deliveryDistance>100) {
+            System.out.println("Доставки нет");
+        }
+        else
+        {
+            if (deliveryDistance <= 20)
+            {
+                srok = 1;
+            }
+            if (deliveryDistance > 20 && deliveryDistance < 60)
+            {
+                srok = 2;
+            }
+            if (deliveryDistance >= 60 && deliveryDistance <= 100)
+            {
+                srok = 3;
+            }
+            System.out.println("Потребуется дней: "+srok);
+        }
+
+
+
 
 
 
