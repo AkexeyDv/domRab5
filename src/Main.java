@@ -25,6 +25,7 @@ public class Main {
         }
         if (numOs != 0 && numOs != 1) {
             System.out.println("Введите корректный номер ОС");
+
         }
 
         //Задание 3
